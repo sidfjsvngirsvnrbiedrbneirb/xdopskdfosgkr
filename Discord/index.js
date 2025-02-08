@@ -28,9 +28,9 @@ socket.on('disconnect', () => {
 });
 
 const discordIds = {
-	guild: '1198025479303725086', // Discord Guild ID
-	mmChannel: '1198031369373220915', // Channel to send Middleman Open Message
-	clientRole: '1189358453353885746', // Role given to the client
+	guild: '1134623346806489098', // Discord Guild ID
+	mmChannel: '1167842931177173045', // Channel to send Middleman Open Message
+	clientRole: '1167842791997571093', // Role given to the client
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildPresences, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages] });
